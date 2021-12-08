@@ -1,0 +1,15 @@
+:root {
+    --primary-color: #A78BFA;
+    --secondary-color: #6D28D9;
+}
+
+body {
+    background-color: var(--primary-color);
+}
+
+.nav {
+    background-color: var(--secondary-color);
+    padding: 1rem;
+    margin: auto;
+    font-size: xx-large;
+}

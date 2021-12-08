@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangle Quiz</title>
+</head>
+<body>
+    <nav class="nav">
+        <a href="isTriangle.html" class="inactive">Is triangle ?</a>
+        <a href="quiz.html" class="active">Quiz</a>
+        <a href="hypotenuse.html" class="inactive">Hypotenuse</a>
+        <a href="area.html" class="inactive">Area</a>
+      </nav>
+      <br />
+    <h1>Triangle Quiz</h1>
+
+    <!-- as we have used form here, we are able to use FormData in JS file -->
+    <form class="quiz-form">
+        <div class="question-container">
+            <p>What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p>
+            <!-- type radio will change the box to a radio (o) type -->
+            <!-- now as its a quiz we need to give options to the user itselft for that we will use the input tag inside the label tag and wrtie the options -->
+            <!-- also radio buttons are indivudal so all the options will get selected if we don't group them with the same name  -->
+
+            <!-- now we already we have options outside label then why are we adding value inside the input tag. will find out when we start with JS part -->
+            <label> <input type="radio" name="question1" value="45°" />45°</label>
+            <label> <input type="radio" name="question1" value="90°" />90°</label>
+            <label> <input type="radio" name="question1" value="60°"/>60°</label>
+        </div>
+
+        <div class="question-container">
+            <p>If a triangle has an angle of 90 degrees, what is it called?</p>
+            <!-- for every question you should have a seperate group hence here name="question2" instead of question1 -->
+            <label> <input type="radio" name="question2" value="obtuse" />obtuse</label>
+            <label> <input type="radio" name="question2" value="acute"/>acute</label>
+            <label> <input type="radio" name="question2" value="right angled" />right angled</label>
+        </div>
+    </form>
+    <!-- make sure button is outside form tag as then the page won't get refreshed -->
+    <button id="submit-answer-btn">Submit Answer</button>
+
+    <!-- div section to display the output -->
+    <div id="output"></div>
+
+    <script src="/quiz.js"></script>
+</body>
+</html>
