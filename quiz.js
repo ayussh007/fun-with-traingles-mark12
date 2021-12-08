@@ -24,7 +24,7 @@ function calculateScore() {
     }
     index = index + 1;
  }
- outputEl.innerText = "Your score is"+ score;
+ outputEl.innerText = "Your score is "+ score;
 }
 // the above function should invoke when user submits the answer so attach eventlistner to the button. This should work on click and the function name that you created
 
