@@ -24,6 +24,7 @@ body {
     color: wheat;
     background-color: var(--primary-color);
     margin-left: 4rem;
+    margin-top: 1rem;
     font-weight: 700;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -78,7 +79,7 @@ body {
 
 #submit-answer-btn {
     /* width: 15%; */
-    margin-left: 53rem;
+    margin-left: 43rem;
     margin-top: 2rem;
     padding: 0.5rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -104,7 +105,7 @@ body {
 
 #check-hypotenuse-btn {
     /* width: 15%; */
-    margin-left: 53rem;
+    margin-left: 40rem;
     margin-top: 2rem;
     padding: 0.5rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
